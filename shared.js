@@ -128,7 +128,7 @@ function msgFormat(msg, norlogeToMtime) { // replaces emoticons and urls in a me
   });
   
   //replace totoz
-  msg = msg.replace(/(\s|^)\[\:([a-zA-Z0-9-_ ]*)\]/g, '$1<img src="http://sfw.totoz.eu/gif/$2.gif"/>');
+  msg = msg.replace(/(\s|^)\[\:([a-zA-Z0-9-_ ]*)\]/g, '$1<a class="totoz">[:$2]<img src="http://sfw.totoz.eu/gif/$2.gif"/></a>');
   
   msg = msg.replace(/\n/g,"<br>");
 

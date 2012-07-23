@@ -242,4 +242,16 @@ td.spaced {
     background-color: #FFCC66;
 }
 
+.totoz {
+	position: relative;
+}
+
+.totoz img {
+	display: none;
+}
+.totoz:hover img {
+	display: inline;
+	position: absolute;
+	bottom: 100%;
+}
 
