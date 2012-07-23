@@ -242,8 +242,18 @@ td.spaced {
     background-color: #FFCC66;
 }
 
+.norloge {
+	font-weight: bold;
+}
+
+.norloge-cite {
+	color: blue;
+}
+
 .totoz {
 	position: relative;
+	font-weight: bold;
+	color: #0A1;
 }
 
 .totoz img {

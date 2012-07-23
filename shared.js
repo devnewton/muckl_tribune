@@ -124,7 +124,7 @@ function msgFormat(msg, norlogeToMtime) { // replaces emoticons and urls in a me
          var prettyNorloge = norlogeToMtime[p2];
          if(!prettyNorloge)
              prettyNorloge = p2;
-         return p1+ "<span class=\"norloge-ref\" data-norloge=\""+ p2 + "\">[" + prettyNorloge + "]</span>";
+         return p1+ "<span class=\"norloge-ref norloge-cite\" data-norloge=\""+ p2 + "\">" + prettyNorloge + "</span>";
   });
   
   //replace totoz
