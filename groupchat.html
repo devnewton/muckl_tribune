@@ -154,7 +154,7 @@ function submitClicked() {
   }			
 
   if (aMessage.getType() == 'chat') { // a private message we have to putMsgHTML ourself
-    putMsgHTML(aMessage.getBody(),new Date().toLocaleTimeString(),to,'purple',null,'to');
+    putMsgHTML(aMessage.getBody(),new Date().toLocaleTimeString(),to,'purple',null,'to',aMessage.getID());
   }
 
   // add message to our message history
@@ -186,7 +186,7 @@ function putMsgHTML(msg,mtime,user,usercolor,err,type,norloge) {
       norlogeToMtime[norloge] = mtime;
   }
   else
-      msgHTML += '<div';
+      msgHTML += '<div>';
 
   if (msg.match(/^\/me /)) {
     msg = msgFormat(msg,norlogeToMtime);
