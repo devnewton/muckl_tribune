@@ -31,6 +31,13 @@ It adds to traditionnal chat some usefull features:
 - norloge: a conversation flow highlightning tool.
 - totoz: a way to insert stupid images.
 
+Screenshots
+===========
+
+![norloge](screenshots/norloge.png)
+
+![totoz](screenshots/totoz.png)
+
 Supported browsers and plattforms
 =================================
 
